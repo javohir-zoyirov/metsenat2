@@ -16,7 +16,7 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 export const Students = ({ search, filter }) => {
-  // console.log(search);
+  // first commit;
   const navigate = useNavigate();
   const columnsSponsors = [
     {
