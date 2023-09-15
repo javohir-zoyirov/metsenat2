@@ -16,7 +16,7 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 export const Students = ({ search, filter }) => {
-  // second updated;
+  
   const navigate = useNavigate();
   const columnsSponsors = [
     {
@@ -122,7 +122,7 @@ export const Students = ({ search, filter }) => {
       ),
     },
   ];
-
+   console.log("javoh");
   const [modalOpen, setmodalOpen] = useState(false);
 
   const showModal = () => {
