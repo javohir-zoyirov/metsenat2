@@ -20,6 +20,7 @@ import { InfoStudent } from "./components/students/infoStudent";
 function App() {
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState("");
+  
   return (
     <Provider store={store}>
       <Routes>

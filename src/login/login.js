@@ -22,7 +22,7 @@ export const LoginPage = () => {
   };
 
   useEffect(() => {
-    if (activAdmin === true) {
+    if (activAdmin == true) {
       navigate("/admin");
     } else {
       navigate("/login");
